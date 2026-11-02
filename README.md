@@ -79,11 +79,3 @@ python -m pytest -q
 1. **Etapa 1:** aceleración de la cadena, análoga a la mochila (Parte I).
 2. **Etapa 2:** cobertura mínima de auditoría con algoritmos voraces (Parte II).
 3. **Etapa 3:** combinación de ambas partes con optimización heurística, más la variante de DAG.
-
-## Preguntas abiertas
-
-Estas respuestas cambian la entrada o el diseño. Hasta tenerlas, el spec asume lo indicado.
-
-1. Las aristas del grafo, ¿representan interacciones de auditoría o precedencias entre etapas? *Supuesto actual: interacciones y etapas en listas separadas, con precedencias opcionales.*
-2. ¿Cada interacción cubre exactamente dos categorías o puede cubrir más? *Supuesto actual: cualquier número, con la representación de conjunto.*
-3. ¿El presupuesto *B* es el mismo para acelerar y para auditar, o son presupuestos separados? *Supuesto actual: uno solo compartido, como en la variante V2.*
