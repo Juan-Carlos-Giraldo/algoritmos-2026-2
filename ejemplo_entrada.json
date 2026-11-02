@@ -1,0 +1,18 @@
+{
+  "presupuesto": 10,
+  "etapas": [
+    { "id": "E1", "tiempo_ejecucion": 5, "costo_aceleracion": 3, "duracion_acelerada": 2 },
+    { "id": "E2", "tiempo_ejecucion": 4, "costo_aceleracion": 4, "duracion_acelerada": 1 },
+    { "id": "E3", "tiempo_ejecucion": 6, "costo_aceleracion": 2, "duracion_acelerada": 4 }
+  ],
+  "precedencias": [],
+  "auditoria": {
+    "categorias": ["sesgo", "fuga_datos", "formato"],
+    "interacciones": [
+      { "id": "I1", "categorias": ["sesgo", "formato"], "costo_auditoria": 2 },
+      { "id": "I2", "categorias": ["fuga_datos"], "costo_auditoria": 1 },
+      { "id": "I3", "categorias": ["sesgo", "fuga_datos"], "costo_auditoria": 3 },
+      { "id": "I4", "categorias": ["formato"], "costo_auditoria": 1 }
+    ]
+  }
+}

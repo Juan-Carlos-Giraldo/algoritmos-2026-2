@@ -1,0 +1,66 @@
+{
+  "presupuesto": 20,
+  "etapas": [
+    {
+      "id": "E01",
+      "tiempo_ejecucion": 15,
+      "costo_aceleracion": 4,
+      "duracion_acelerada": 9
+    },
+    {
+      "id": "E02",
+      "tiempo_ejecucion": 10,
+      "costo_aceleracion": 7,
+      "duracion_acelerada": 9
+    },
+    {
+      "id": "E03",
+      "tiempo_ejecucion": 17,
+      "costo_aceleracion": 2,
+      "duracion_acelerada": 1
+    },
+    {
+      "id": "E04",
+      "tiempo_ejecucion": 12,
+      "costo_aceleracion": 5,
+      "duracion_acelerada": 3
+    },
+    {
+      "id": "E05",
+      "tiempo_ejecucion": 19,
+      "costo_aceleracion": 8,
+      "duracion_acelerada": 12
+    },
+    {
+      "id": "E06",
+      "tiempo_ejecucion": 14,
+      "costo_aceleracion": 3,
+      "duracion_acelerada": 11
+    },
+    {
+      "id": "E07",
+      "tiempo_ejecucion": 9,
+      "costo_aceleracion": 6,
+      "duracion_acelerada": 0
+    },
+    {
+      "id": "E08",
+      "tiempo_ejecucion": 16,
+      "costo_aceleracion": 1,
+      "duracion_acelerada": 7
+    },
+    {
+      "id": "E09",
+      "tiempo_ejecucion": 11,
+      "costo_aceleracion": 4,
+      "duracion_acelerada": 9
+    },
+    {
+      "id": "E10",
+      "tiempo_ejecucion": 18,
+      "costo_aceleracion": 7,
+      "duracion_acelerada": 3
+    }
+  ],
+  "precedencias": []
+}

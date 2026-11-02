@@ -1,0 +1,24 @@
+{
+  "presupuesto": 5,
+  "etapas": [
+    {
+      "id": "E01",
+      "tiempo_ejecucion": 15,
+      "costo_aceleracion": 4,
+      "duracion_acelerada": 9
+    },
+    {
+      "id": "E02",
+      "tiempo_ejecucion": 10,
+      "costo_aceleracion": 7,
+      "duracion_acelerada": 9
+    },
+    {
+      "id": "E03",
+      "tiempo_ejecucion": 17,
+      "costo_aceleracion": 2,
+      "duracion_acelerada": 1
+    }
+  ],
+  "precedencias": []
+}

@@ -1,0 +1,84 @@
+{
+  "entrada": "ejemplo_03_etapas.json",
+  "metodo": "programacion_dinamica_0_1",
+  "exacta": true,
+  "presupuesto": 5,
+  "costo_aceleracion": 2,
+  "etapas_aceleradas": [
+    "E03"
+  ],
+  "reduccion_maxima": 16,
+  "duracion_total": 26,
+  "fila_final": [
+    0,
+    0,
+    16,
+    16,
+    16,
+    16
+  ],
+  "tabla_dp": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      6,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      6,
+      6
+    ],
+    [
+      0,
+      0,
+      16,
+      16,
+      16,
+      16
+    ]
+  ],
+  "recorrido_dp": [
+    {
+      "fila": 3,
+      "presupuesto": 5,
+      "decision": "acelerar",
+      "etapa": "E03",
+      "presupuesto_anterior": 3
+    },
+    {
+      "fila": 2,
+      "presupuesto": 3,
+      "decision": "no_acelerar",
+      "etapa": "E02",
+      "presupuesto_anterior": 3
+    },
+    {
+      "fila": 1,
+      "presupuesto": 3,
+      "decision": "no_acelerar",
+      "etapa": "E01",
+      "presupuesto_anterior": 3
+    },
+    {
+      "fila": 0,
+      "presupuesto": 3,
+      "decision": "inicio",
+      "etapa": "Inicio",
+      "presupuesto_anterior": 3
+    }
+  ]
+}
